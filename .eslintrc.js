@@ -14,5 +14,15 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'lines-between-class-members': ['error', 'never'],
+    'arrow-parens': ['error', 'as-needed'],
+    'camelcase': 'off',
+    'no-restricted-globals': 'off',
+    'no-alert': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    // 'vue/no-ref-as-operand': 'off',
+    'import/prefer-default-export': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off'
   },
 };
