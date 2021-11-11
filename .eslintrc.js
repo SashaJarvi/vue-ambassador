@@ -21,7 +21,6 @@ module.exports = {
     'no-alert': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
-    // 'vue/no-ref-as-operand': 'off',
     'import/prefer-default-export': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off'
   },

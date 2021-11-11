@@ -28,7 +28,6 @@ export default {
   name: 'Stats',
   setup() {
     const links = ref<Link[]>([]);
-    // const checkoutUrl = (code: string) => `${process.env.VUE_APP_CHECKOUT_URL}/${code}`;
     const checkoutUrl = computed(() => (code: string) => `${process.env.VUE_APP_CHECKOUT_URL}/${code}`);
 
     onMounted(async () => {
